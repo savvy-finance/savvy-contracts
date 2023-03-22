@@ -3,7 +3,8 @@
 Savvy is an auto-repaying and non-liquidating DeFi lending platform that gives users the ability to take an advance on their future yield immediately.
 
 🌐  [website](https://savvydefi.io/)  
-📝  [whitepaper](http://whitepaper.savvydefi.io/)
+📝  [whitepaper](http://whitepaper.savvydefi.io/)  
+🔒  [Halborn audit](https://github.com/HalbornSecurity/PublicReports/blob/master/Solidity%20Smart%20Contract%20Audits/Savvy_DeFi_Smart_Contract_Securtity_Audit_Report_Halborn_Final.pdf)
 
 ## Terms
 | Term | Description | Example |
