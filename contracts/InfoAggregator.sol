@@ -3,7 +3,6 @@ pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
-import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 import "./interfaces/ISavvyPositionManager.sol";
 import "./interfaces/IInfoAggregator.sol";
 import "./interfaces/IYieldStrategyManager.sol";

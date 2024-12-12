@@ -4,8 +4,6 @@ pragma solidity ^0.8.17;
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 import "./base/Multicall.sol";
-import "./base/Mutex.sol";
-import "./base/ErrorMessages.sol";
 
 import "./libraries/TokenUtils.sol";
 import "./libraries/SafeCast.sol";
@@ -16,7 +14,6 @@ import "./interfaces/ISavvyToken.sol";
 import "./interfaces/ISavvyPositionManager.sol";
 import "./interfaces/IYieldStrategyManager.sol";
 import "./interfaces/savvy/ISavvyState.sol";
-import "./interfaces/external/IWAVAX9.sol";
 
 contract SavvyLoanMigrator is ISavvyLoanMigrator, Multicall, Initializable {
     string public override version;

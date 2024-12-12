@@ -5,8 +5,6 @@ import {AccessControl} from "@openzeppelin/contracts/access/AccessControl.sol";
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-import {IllegalArgument, IllegalState, Unauthorized} from "./base/Errors.sol";
-
 import {IERC3156FlashBorrower} from "./interfaces/IERC3156FlashBorrower.sol";
 import {IERC3156FlashLender} from "./interfaces/IERC3156FlashLender.sol";
 

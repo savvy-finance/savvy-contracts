@@ -13,7 +13,6 @@ import "./interfaces/ISavvyLGE.sol";
 import "./libraries/Checker.sol";
 import "./libraries/Math.sol";
 import "./libraries/TokenUtils.sol";
-import "./base/Errors.sol";
 
 contract SavvyLGE is
     Ownable2Step,
