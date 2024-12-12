@@ -12,11 +12,9 @@ import './VeERC20Upgradeable.sol';
 import './libraries/Math.sol';
 import "./libraries/Checker.sol";
 
-import './interfaces/ISavvyPositionManager.sol';
 import './interfaces/ISavvyBooster.sol';
 import './interfaces/IVeSvy.sol';
 import './interfaces/IAllowlist.sol';
-import './base/Errors.sol';
 
 
 /// @title VeSvy

@@ -2,7 +2,6 @@
 pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol";
-import {Unauthorized, IllegalState, IllegalArgument} from "./base/Errors.sol";
 import "./interfaces/IYieldStrategyManager.sol";
 import "./interfaces/ITokenAdapter.sol";
 

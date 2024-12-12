@@ -4,8 +4,6 @@ pragma solidity ^0.8.17;
 import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
 
-import "./base/Errors.sol";
-
 import "./interfaces/IAllowlist.sol";
 
 import "./interfaces/savvySwap/ISavvySwap.sol";

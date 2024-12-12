@@ -3,10 +3,7 @@ pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
-import "@openzeppelin/contracts/utils/math/Math.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-
-import "./base/Errors.sol";
 
 import "./interfaces/ISavvyPositionManager.sol";
 import "./interfaces/ITokenAdapter.sol";
@@ -15,7 +12,6 @@ import "./interfaces/savvySwap/ISavvySage.sol";
 import "./interfaces/savvySwap/ISavvySwap.sol";
 
 import "./libraries/FixedPointMath.sol";
-import "./libraries/LiquidityMath.sol";
 import "./libraries/SafeCast.sol";
 import "./libraries/TokenUtils.sol";
 import "./libraries/Checker.sol";
